@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Aidavec</string>
+
+    <!-- LoginActivity -->
+    <string name="txtUserHint">E-mail</string>
+    <string name="txtPasswordHint">Senha</string>
+    <string name="btnEnter">Entrar</string>
+    <string name="btnSignUp">Cadastrar</string>
+    <string name="lblLoginTitle">Faça o Login</string>
+
+    <!-- SignUpActivity -->
+    <string name="txtSignUpFirstNameHint">Primeiro nome</string>
+    <string name="txtSignUpLastNameHint">Sobrenome</string>
+    <string name="txtSignUpEmailHint">E-mail</string>
+    <string name="txtSignUpPhoneHint">Telefone</string>
+    <string name="txtSignUpPasswordHint">Senha</string>
+    <string name="txtSignUpPasswordRepHint">Repita a Senha</string>
+    <string name="txtSignUpCityHint">Cidade</string>
+    <string name="txtSignUpStateHint">Estado</string>
+    <string name="btnSignUpSend">Enviar</string>
+    <string name="lblSignUpTitle">Faça seu cadastro</string>
+
+    <!-- NavigationDrawer -->
+    <string name="drawer_menu_home">HOME</string>
+    <string name="drawer_menu_report">RELATÓRIO</string>
+    <string name="drawer_menu_notification">NOTIFICAÇÕES</string>
+    <string name="drawer_menu_config">CONFIGURAÇÕES</string>
+    <string name="drawer_menu_invite">CONVIDAR</string>
+    <string name="drawer_menu_logout">SAIR</string>
+
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

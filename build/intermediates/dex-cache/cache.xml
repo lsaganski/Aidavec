@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82edcaec6c7b4599eaeaaf11167ceea41db42f33">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/httpclient-android-4.3.5-cd831dbc9eb1c69d3ffc2402de693f37ee9fd9eb.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-67003ba50bed4783813f84720950af85326c7307.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-9a188e0152d5827ca62d60f33284717b3851484a.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-13f96e190c07b796e999fbe2ef4b32db03c48a3c.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-b2b879fa63186c549a628d9a1e254d2afbb7fc7d.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-74f21e9b120eb8571862196df979ea5a73fa4139.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-61bcbad788182863eb13de7336a33d2dd015a6ed.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-322eb04f8f2ce910bb471d41e6c1367c3d5b12fe.jar" />
+    </item>
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.7/6eb2e87ddb09e944bb88f06f19ba0638d4607ffd/joda-time-2.9.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6eb2e87ddb09e944bb88f06f19ba0638d4607ffd">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/joda-time-2.9.7-1dba1cdeb694cb769faa8e06f9ebf0265b76974a.jar" />
+    </item>
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/reactive-streams-1.0.0-e6a27af82f4958cd635a5ad8ee5bef400f9fcf1d.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-8223e09e467c4ae55fe66128a3cb4da8bd81f61e.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-3842d9bd3104a798d1592fce12387fa27cc7e161.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/internal_impl-24.0.0-fe6d30d7429bcacccf9295914695ad88dbe91bff.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-3c36263e1ac123736e4bc0fcb8120a299ed3ddd4.jar" />
+    </item>
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.5/1dd0d38df9c6d21e893f2e52403f1cd99e91cd81/httpmime-4.3.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/httpmime-4.3.5-23f0ccae355a6c9672b5773e60fdb612e49cfda1.jar" />
+    </item>
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.0/5151c737c01616c372c3d00ab145868ede10e826/rxjava-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5151c737c01616c372c3d00ab145868ede10e826">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/rxjava-2.0.0-c4324173f129c6ecbb249329602502a940cd682c.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/br.com.livroandroid/android-utils/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19d7678a8df17881d086f30ddda273d649c5ce0c">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-6bfaa8590b0567da00aefdceb4deefc10b1776b1.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-9fe946c06f812dcfe9242e7983468a7f8854aad2.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-e27a4ce52c07fd549980d8f7e8d0f3ced870c38d.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/support-annotations-24.0.0-763ba696238f805e89ad5241d557131b750a109f.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-c0a15ac93b37268d03637caec8e3178c2efc73f4.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-dc03ddbf59acd3e769a25226218a9ac1e4656605.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-8f2ad83eb8e35a4e62ad51c230b10c19ad4a35af.jar" />
+    </item>
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/gson-2.3.1-810d733ee27023b704bc2fd3d2a7b958eb56f54c.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-6390aa44e426b6b9f6380e4fa7b869b8d6709e40.jar" />
+    </item>
+    <item
+        jar="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/classes-ab6968694cad2f68ee48553e08646f18c84c32d0.jar" />
+    </item>
+    <item
+        jar="/Users/losk/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.1/369f9aa48a629b4e92557b37326f42dc3de796e4/MPAndroidChart-v3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="/Users/losk/Documents/Projects/Android/Aidavec/app/build/intermediates/pre-dexed/release/MPAndroidChart-v3.0.1-1c0655373dc6469c5f0dc34195370a519ae91d43.jar" />
+    </item>
+
+</items>

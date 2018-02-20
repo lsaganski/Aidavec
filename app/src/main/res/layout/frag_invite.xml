@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/back_grad_blue">
+    <!--<ListView
+        android:id="@+id/lstView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />-->
+    <TextView
+        android:id="@+id/lblAviso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="Clicando no botão abaixo, você poderá selecionar entre seus contatos do WhatsApp, quem receberá o convite.
+\nA mensagem que será enviada é : \n\n
+Gostaria de te convidar para a Aidavec.\n
+www.aidavec.com.br\n\n
+UMA NOVA RENDA, A MESMA ROTINA."
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ENVIAR"
+        android:textColor="@color/white"
+        android:background="@drawable/back_grad_blue"
+        />
+</LinearLayout>

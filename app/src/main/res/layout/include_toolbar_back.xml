@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#FFFFFF"
+    >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/toolbar_back"
+            android:elevation="4dp">
+                <FrameLayout
+                    android:id="@+id/flUnreadNotes"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_gravity="right"
+                    android:padding="3dp"
+                    >
+                        <ImageView
+                            android:id="@+id/btnUnreadNotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ico_notific"
+                            />
+                        <FrameLayout
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="top|right"
+                            >
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/reddot40"
+                                    />
+                                <TextView
+                                    android:id="@+id/lblUnreadNotes"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="14sp"
+                                    android:text="2"
+                                    android:layout_gravity="center_horizontal|center_vertical"
+                                    />
+                        </FrameLayout>
+                </FrameLayout>
+                <ProgressBar
+                    android:id="@+id/prbProgress"
+                    style="@android:style/Widget.ProgressBar.Large"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"
+                    android:indeterminate="true"/>
+        </android.support.v7.widget.Toolbar>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

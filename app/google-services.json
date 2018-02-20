@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "301060554897",
+    "firebase_url": "https://aidavec-cf7c0.firebaseio.com",
+    "project_id": "aidavec-cf7c0",
+    "storage_bucket": "aidavec-cf7c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301060554897:android:e2dcd7224682d072",
+        "android_client_info": {
+          "package_name": "br.com.aidavec.aidavec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301060554897-leg284t1ealahl430po7cmdouko74hos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.aidavec.aidavec",
+            "certificate_hash": "2D7A721CCE3B4966027E54463A2EC98FE9DE8C01"
+          }
+        },
+        {
+          "client_id": "301060554897-12l8oe3beofoc9r2hs7eplsjfhaq2lbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUib1a-GAJd9lHDhIzGiOGZLYqKA2p8qM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301060554897-12l8oe3beofoc9r2hs7eplsjfhaq2lbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

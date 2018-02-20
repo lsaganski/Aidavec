@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ico_home"
+            android:title="@string/drawer_menu_home" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ico_report"
+            android:title="@string/drawer_menu_report" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ico_notific"
+            android:title="@string/drawer_menu_notification" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ico_config"
+            android:title="@string/drawer_menu_config" />
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ico_convidar"
+            android:title="@string/drawer_menu_invite" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ico_sobre"
+            android:title="SOBRE" />
+    </group>
+</menu>

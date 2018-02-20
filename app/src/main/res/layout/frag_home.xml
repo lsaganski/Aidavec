@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/back_grad_blue"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:text="Distância percorrida (Km) " />
+            <TextView
+                android:id="@+id/lblDistancia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="9999.99" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:text="Total de pontos " />
+            <TextView
+                android:id="@+id/lblPontos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="9999.99" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llValidMotion"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            >
+            <TextView
+                android:id="@+id/lblValidMotion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:text="Total de pontos " />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llMotion"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            >
+            <TextView
+                android:id="@+id/lblMotion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:text="Total de pontos " />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/llPonteiro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/back_home"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:weightSum="5"
+            >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                >
+                <br.com.aidavec.aidavec.controls.Ponteiro
+                    android:id="@+id/imgPonteiro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ico_velocimetro800"
+                    android:visibility="visible"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="bottom|center_horizontal"
+                    android:weightSum="3"
+                    >
+                    <FrameLayout
+                        android:id="@+id/flPonteiro"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:layout_marginBottom="30dp"
+                        >
+                        <ImageView
+                            android:id="@+id/imgGreenCar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ico_carro_verde"
+                            android:visibility="visible"
+                            />
+                        <ImageView
+                            android:id="@+id/imgYellowCar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ico_carro_amarelo"
+                            android:visibility="gone"
+                            />
+                        <ImageView
+                            android:id="@+id/imgRedCar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ico_carro_vermelho"
+                            android:visibility="gone"
+                            />
+                    </FrameLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/back_home_green"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Veículo Apto"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/back_home_yellow"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Continue Dirigindo"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/back_home_red"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Veículo não validado"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnHelp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ico_help"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="50dp"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

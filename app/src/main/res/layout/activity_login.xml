@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_grad_blue"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:paddingTop="40dp"
+            android:src="@drawable/logo_white"
+
+            />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp"
+        >
+        <ProgressBar
+            android:id="@+id/prbProgress"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:indeterminate="true"/>
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblLoginTitle"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtUserLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                >
+                <EditText
+                    android:id="@+id/txtUser"
+                    style="@style/txtLoginActivity"
+                    android:hint="@string/txtUserHint"
+                    android:inputType="textEmailAddress"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtPasswordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                >
+                <EditText
+                    android:id="@+id/txtPassword"
+                    style="@style/txtLoginActivity"
+                    android:hint="@string/txtPasswordHint"
+                    android:password="true"
+                    android:inputType="text"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <Spinner
+                android:id="@+id/ddlApiServer"
+                style="@style/txtSignUpActivity"
+                android:background="@drawable/ddl_back"
+                android:popupBackground="@drawable/back_grad_blue"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        >
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:text="@string/btnSignUp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_back"
+            />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnEnter"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:text="@string/btnEnter"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_back"
+            />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        >
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnForgot"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="11"
+            android:text="Esqueci minha senha"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_back"
+            />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        />
+    </LinearLayout>
+
+</LinearLayout>
